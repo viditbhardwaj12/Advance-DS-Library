@@ -1,3 +1,7 @@
+#ifndef BL_H
+#define BL_H
+#include <vector>
+
 class BinaryLifting{
 public:
     int n;
@@ -82,3 +86,5 @@ public:
         return ans;
     }
 };
+
+#endif
